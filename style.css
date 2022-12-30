@@ -2,15 +2,133 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
+    /* outline-offset: 2px;
+    scroll-behavior: smooth; */
+ }
+body{scroll-margin-block: 100vh;
+    scroll-snap-type: mandatory;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    min-block-size: 100vh;
+    display: block;
 }
 html,body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    overflow-x: hidden;
+    padding: 0; 
+    background-image: url(/images/Model-3-Main-Hero-Section-LHD.jpeg) ;
+    background-position-x: 50%;
+    background-position-y: auto
 }
-.navbar{
-    width: 1536;
-    height: 56;
-    background-color: black;
-    ;
+.page1{
+    margin: auto;
+    max-width: 1536px;
+    overflow: auto;
+    padding: 0;
+  
+}
+#navbar{
+    /* animation-delay: 0s;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-fill-mode:none;
+    animation-iteration-count:1px;
+    animation-name: tds--; */
+    /* inline-size: 100%; */
+    /* display: flex; */
 
+    inline-size: 100%;
+    /* width:1536px ; */
+    height: 56px;
+    color: rgb(57,60,65);
+    padding: 0;
+    list-style: none;
+    color: white;
+    float: left;
+    text-align: center;
+   
+}
+#navbar a{
+    color: white;
+  
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.models{
+    color: white;
+}
+.models ul {
+    position: absolute;
+    left:300px;
+    color: white;}
+.models ul li {
+    list-style: none;
+    padding: 15px;
+    float: right;
+  
+    }
+.models ul li a{
+     color: white;
+     text-align: center;
+     font-size: 14px;
+        
+    }
+.rnav ul{
+    
+    
+    float: right;
+}
+
+.rnav ul li{
+    padding: 15px;
+    float: left; 
+    list-style: none;  
+    text-align: center;
+}
+
+
+.rnav ul li a{
+    text-align: center;
+    float: right;
+    margin: 0;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+
+} 
+#showcase {
+    position: absolute;
+    left: 50%;
+    top: 100px;
+text-align: center;
+margin-top: 16vh;
+padding: 0;
+width: 100%;
+font-size: 40px;
+line-height: 48px;
+font-weight: 500;
+letter-spacing: -0.6px;
+
+
+}
+.page1 .showcase a {
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size:14px;
+}
+.page1 .showcase h2 {
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    font-size:30px;
 }
