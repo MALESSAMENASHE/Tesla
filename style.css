@@ -77,6 +77,7 @@ nav ul li a{
     border: 1px solid white;
     padding: 2px 18px;
     margin-right: 30px;
+
 }
 .info{
     width: 100%;
@@ -84,8 +85,8 @@ nav ul li a{
     display: flex;
     align-items: center;
     color: white;
-    position: fixed;
-    bottom: 50px;
+    position: absolute;
+    bottom: 40px;
     text-align: center;
     margin-left: 250px;
 
@@ -97,3 +98,30 @@ nav ul li a{
     font-size: 30px;
     font-weight: 400;
 }
+.btn-chat {
+    background: white;
+    position: fixed;
+    right: 30px;
+    bottom: 90px;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .btn-arrow {
+    background: none;
+    position: absolute;
+    left: 900px;
+    top: 890px;
+    padding: 15px;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .btn-arrow i {
+    color: white;
+  
+    font-size: 20px;
+    animation: move 1s infinite;
+  }
