@@ -7,7 +7,7 @@
 }
 body{
    background-image: url(/images/Model-3-Main-Hero-Desktop-LHD.jpg);
-    height: 100vh;
+    height: 274px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -72,13 +72,15 @@ nav ul li a{
     padding-top: 6px;
     padding-left: 24;
     padding-right: 24px;
+    text-decoration-line: underline;
 }
 .btn{
     border: 1px solid white;
-    padding: 2px 18px;
+    padding: 5px 50px;
     margin-right: 30px;
 
 }
+
 .info{
     width: 100%;
     padding: 0 50px;
@@ -97,6 +99,9 @@ nav ul li a{
 .info h2{
     font-size: 30px;
     font-weight: 400;
+}
+.info a{
+    color: white;
 }
 .btn-chat {
     background: white;
